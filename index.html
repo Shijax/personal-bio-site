@@ -6,40 +6,51 @@
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   <!-- TODO: Insert a title for your page -->
 </head>
-
 <body>
     <header>
         <!-- Navigation -->
-        <nav>
-            <!-- TODO: Insert some sort of H1-H6 with your name here -->
-            <h3>Matthew Jackson</h3>
-            <ul id="navLinks">
-            <li><a id="navToBio">Bio</a></li>
-            <li><a id="navToTechnologies">Technologies</a></li>
-            <li><a id="navToProjects">Projects</a></li>
+        <nav class="navigation">
+            <h2 class="logo">Matthew S. Jackson</h2>
+            <ul class="navul">
+                <li class="nav_list"><a class="link1" href="../index.html">Home</a></li>
+                <li class="nav_list"><a href="../html/aboutme.html">About Me</a></li>
+                <li class="nav_list"><a href="../html/tech.html">Technologies</a></li>
+                <li class="nav_list"><a href="../html/projects.html">Projects</a></li>
             </ul>
         </nav>
     </header>
-  <!-- End Navigation -->
-
-  <!-- Primary View -->
-  <div class="fullPage" id="bioPage">
-    <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-    <p>My name is Matthew Jackson, and I live in Nashville, Tennessee.</p>
-    <p>I tend to live a fairly simple life.  I spend my time with my tribe when I can, work hard regularly, play video games to relax, catch a movie or two, read voraciously, check out the occasional social events like live music venues, and generally just enjoy life.  It's a journey... embrace it.</p>
-    <p>Oh, and apprarantly I am an ISFJ according to some random internet website, whatever that means.  It did tell me I should be a social worker or work in IT, so I guess it's partially accurate.  I do work as a Senior System Administrator for a large healthcare company, and I am a web development student at Nashville Software School.</p>
-    <p>I should note... the content on this page will change regulary and will "hopefully" inmprove in design and complexity over the course of the next year (starting August 2018) and beyond as my skill in Web Development grows and I learn how to do things like HTML, CSS, JavaScript, and other things more efficiently.</p>
+    <!-- End Navigation -->
+  <div class="flexon bioContainer">
+        <!-- Bio Picture -->
+    <div class="image__bioCard">
+        <div class="container">
+        <img src="img/matt.jpg" alt-text="bio picture">
+        </div>
+    </div>
+        <!-- Bio Text -->
+    <div class="bioCard">
+        <h4>Who is Matthew Jackson</h4>
+        <h5>Rocket Ship Builder, Pizza Expert, Loves the Texas Rangers, Parent... oh and sometimes a wannabe Junior Developer.</h5>
+        <p>Matthew Jackson (Shijax) is just a laid back guy living somewhere in Tennessee.</p>
+        <p>I tend to live a fairly simple life.  I spend my time with my tribe when I can, work hard regularly, play video games to relax, catch a movie or two, read voraciously, check out the occasional social events like live music venues, and generally just enjoy life.  It's a journey... embrace it.</p>
+        <p>Oh, and apprarantly I am an ISFJ according to some random internet website, whatever that means.  It did tell me I should be a social worker or work in IT, so I guess it's partially accurate.  I do work as a Senior System Administrator for a large healthcare company, and I am a web development student at Nashville Software School.</p>
+        <h6>NOTE... the content on this page will change regulary and will "hopefully" improve in design and complexity over the course of the next year (starting August 2018) and beyond as my skill in Web Development grows and I learn how to do things like HTML, CSS, JavaScript, and other things more efficiently.</h6>
+    </div>
   </div>
-  <div class="fullPage" id="technologiesPage">
+  <div id="technologiesPage">
     <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
   </div>
-  <div class="fullPage" id="projectsPage"></div>
-  <!-- End Primary View -->
+  <div id="projectsPage"></div>
 
   <!-- Footer -->
-  <footer class="page-footer">
-    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
-  </footer>
+  <footer id="footer"> 
+    <em>&copy;Matthew S. Jackson</em>
+    <div id="footer_img">
+        <a href="https://twitter.com/shijax" target="_blank"><img class="footer_img" src="https://www.beep.es/blog/wp-content/uploads/2013/11/twitter.png" alt="twitter"> </a>
+        <a href="http://www.instagram.com" target="_blank"> <img class="footer_img" src="http://icons.iconarchive.com/icons/uiconstock/socialmedia/512/Instagram-icon.png" alt="Instagram"></a>
+        <a href="http://www.facebook.com" target="_blank"><img class="footer_img" src="http://www.iconarchive.com/download/i11578/fasticon/web-2/FaceBook.ico" alt="facebook"></a>
+    </div>
+</footer>
   <!-- End Footer -->
   <script src="main.js"></script>
 </body>

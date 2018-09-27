@@ -1,40 +1,110 @@
 /* Begin Nav Bar CSS */
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+body {
+    background-color: black;
 }
 
-li {
-    float: left;
-    border-right: 1px solid #bbb;
+/* CSS for Navbar */
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: aliceblue;
+    position: sticky;
+    top: 0px;
 }
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+nav ul li a:hover{
+    background-color: rgb(108, 202, 202);
+}
+.nav_list {
+    margin: 10px;
+    list-style: none;
     text-decoration: none;
+ }
+.navul {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+a {
+    text-decoration: none;
+    color: cadetblue;
+   }
+.logo {
+    font-family: 'Metal Mania', cursive;
+    padding-left: 10px;
 }
 
-/* Change the link color to #111 (black) on hover */
-
-li a:hover {
-    background-color: #111;
+/* FOOTER */ 
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aliceblue;
+    position: sticky;
+    bottom: 0px;
+}
+.footer_img{
+    max-width: 30px;
+    max-height: 30px;
+    margin: 5px;
 }
 
-li:last-child {
-    border-right: none;
+/* Flex On */
+.flexon {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-/* Active Link Code */
+/* Begin CSS for Bio Section */
 
-.active {
-    background-color: #4CAF50;
+.bioContainer {
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* width: 100%; */
 }
 
+.image__bioCard {
+    box-shadow: 10px 10px 10px;
+    width: auto;
+    height: auto;
+}
+/* resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}
 
+.bioCard {
+    background-color: rgba(255, 250, 244, 0.966);
+    margin: 10px;
+    text-align: auto;
+    padding: 10px;
+    box-shadow: 10px 10px 10px;
+}
+
+/* Media Settings for Site */
+
+/* @media (min-width:600px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width:800px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width:1000px) {
+    body {
+      font-size: 20px;
+    }
+  } */
